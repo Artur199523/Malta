@@ -219,6 +219,7 @@ img {
 }
 .slide_img{
     height: 625px;
+    object-fit: cover;
 }
 /* Caption text */
 
@@ -1342,7 +1343,7 @@ a {
 .price_inf {
     text-align: center;
     width: 283px;
-    height: 390px;
+
     margin: 9px;
     background-color: #ffffff;
     position: relative;
@@ -1362,8 +1363,7 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 77%;
-    margin: auto;
+    justify-content: center;
     padding-top: 39px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1374,8 +1374,7 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 246px;
-    margin: auto;
+    justify-content: center;
 
 }
 
@@ -1389,7 +1388,8 @@ a {
     font-family: cursive;
     color: #2d4059;
     font-size: 1.5em;
-    margin-top: 36px;
+    display: flex;
+    align-items: center;
 }
 
 .duration_of_rest {
@@ -1424,6 +1424,7 @@ a {
     -webkit-transition: 0.7s;
     -o-transition: 0.7s;
     transition: 0.7s;
+    display: inline-block;
 }
 
 .button_book:hover {

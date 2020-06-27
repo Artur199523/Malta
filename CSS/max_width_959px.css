@@ -1368,8 +1368,7 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 86%;
-    margin: auto;
+    justify-content: center;
     padding-top: 39px;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -1380,7 +1379,6 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 144px;
     margin: auto;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -1399,7 +1397,8 @@ a {
     font-family: cursive;
     color: #2d4059;
     font-size: 1.5em;
-    margin-top: 3px;
+    display: flex;
+    justify-content: center;
 }
 
 .duration_of_rest {
@@ -1434,6 +1433,7 @@ a {
     -webkit-transition: 0.7s;
     -o-transition: 0.7s;
     transition: 0.7s;
+    display: inline-block;
 }
 
 .button_book:hover {
